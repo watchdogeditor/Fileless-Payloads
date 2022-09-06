@@ -37,8 +37,8 @@ Your Target:
 
 ### Executing program
 
-* Execute the script via curl through the command line.
-* Alternatively, install on your hotplug device of choice using the provided scripts (labeled by device). Once installed, simply plug in to deploy the attack.
+* Execute the script via curl through the command line or a similar tool.
+* Alternatively, install on your hotplug device of choice using the provided scripts (labeled by device). Once installed, host the payload somewhere like Github (fork it!), then simply plug in to deploy the attack.
 * When the powershell script is executed, it will enumerate each timeline file in the user's application data.
 * After a pause, the files will be exfiltrated to the provided Dropbox API key.
 * You should see one or more files appear in your Dropbox, each ending in a ".db" extension. This indicates successful exfiltration.
@@ -50,11 +50,9 @@ Your Target:
 
 ## Contributing
 
-All contributors names will be listed here
+[Watchdogeditor](https://github.com/Watchdogeditor)
 
-Watchdogeditor
-
-I am Jakoby
+[I am Jakoby](https://github.com/I-Am-Jakoby/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
